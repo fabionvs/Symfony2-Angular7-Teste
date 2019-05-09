@@ -1,0 +1,28 @@
+{% extends 'AppBundle::Layout.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+                <div>
+                    <h6 class="my-0">Id</h6>
+                </div>
+                <span class="text-muted">{{ contato.id }}</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+                <div>
+                    <h6 class="my-0">{{ contato.nome }}</h6>
+                    <small class="text-muted">{{ contato.email }}</small>
+                </div>
+                <span class="text-muted">{{ contato.telefone }}</span>
+            </li>
+            <li class="list-group-item d-flex float-right lh-condensed">
+                {{ form_start(delete_form) }}
+                <input class="btn btn-danger float-right" type="submit" value="Excluir">
+                {{ form_end(delete_form) }}
+                <a class="btn btn-warning ml-2" href="{{ path('contatos_edit', { 'id': contato.id }) }}">Editar</a>
+            </li>
+        </ul>
+        <a href="{{ path('index') }}"><button class="btn btn-primary btn-block">Voltar para a lista</button></a>
+    </div>
+{% endblock %}

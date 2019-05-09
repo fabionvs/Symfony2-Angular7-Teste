@@ -1,0 +1,35 @@
+{% extends 'AppBundle::Layout.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <h1>Novo Contato</h1>
+        {{ form_start(form) }}
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Nome</label>
+                    <input type="text" class="form-control" name="nome" required
+                           placeholder="Digite seu nome">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" required
+                           placeholder="Digite seu email">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Telefone</label>
+                    <input type="text" class="form-control" name="telefone" id="exampleInputEmail1" aria-describedby="emailHelp" required
+                           placeholder="Digite seu telefone">
+                </div>
+            </div>
+        </div>
+        <input type="submit" class="btn btn-success" value="Criar Contato"/>
+        <a href="{{ path('index') }}"><button class="btn btn-secondary ml-4">Voltar</button></a>
+        {{ form_end(form) }}
+    </div>
+
+{% endblock %}

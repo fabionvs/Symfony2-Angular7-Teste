@@ -1,0 +1,45 @@
+{% trans_default_domain 'FOSUserBundle' %}
+{% if app.user.id is not defined %}
+<hr class="divider">
+{% if error %}
+<div class="row">
+    <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+</div>
+{% endif %}
+<form action="{{ path("fos_user_security_check") }}" method="post">
+    <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+    <div class="form-group">
+        <label class="form-label text-dark">Email address</label>
+        <input class="form-control" placeholder="{{ 'security.login.username'|trans }}" type="text" id="username"
+            name="_username" value="{{ last_username }}" required="required">
+    </div>
+    <div class="form-group">
+        <label class="form-label text-dark">Password</label>
+        <input class="form-control" type="password" placeholder="{{ 'security.login.password'|trans }}" id="password"
+            name="_password" required="required">
+    </div>
+    <div class="form-group">
+        <label class="custom-control custom-checkbox">
+            <a href="forgot-password.html" class="float-right small text-dark mt-1">I forgot password</a>
+            <input type="checkbox" class="custom-control-input">
+            <span class="custom-control-label text-dark">Remember me</span>
+        </label>
+    </div>
+    <div class="form-footer mt-2">
+        <button type="submit" class="btn btn-primary btn-block">Login</button>
+    </div>
+</form>
+<div class="text-center  mt-3 text-dark">
+    Don't have account yet? <a href="#registerModal" data-toggle="modal" data-target="#registerModal">SignUp</a>
+</div>
+{% else %}
+<div class="team-section text-center">
+    <h5>Você está logado:</h5>
+        <div class="team-img">
+            <img src="{{ asset('upload/user/') ~ app.user.foto }}" class="img-thumbnail rounded-circle alt=" alt="">
+        </div>
+        <h4 class="font-weight-bold dark-grey-text mt-4">{{ app.user.nome }}</h4>
+        <a href="{{ path('fos_user_security_logout') }}"><button class="btn btn-warning"><i class="fa fa-times"></i> Fazer Logout</button></a>
+        <a href="{{ path('user_home') }}"><button class="btn btn-default"><i class="fa fa-user"></i> Área de Usuário</button></a>
+    </div>
+{% endif %}

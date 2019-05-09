@@ -1,0 +1,26 @@
+{% trans_default_domain 'FOSUserBundle' %}
+{% extends "AppBundle::Layout.html.twig" %}
+{% block body %}
+
+<!--Register-section-->
+<section class="sptb">
+    <div class="container customerpage">
+        <div class="row ">
+            <div class="col-lg-4 d-block mx-auto">
+                <div class="row">
+                    <div class="col-xl-12 col-md-12 col-md-12">
+                        <div class="card mb-xl-0">
+                            <div class="card-header">
+                                <h3 class="card-title"><i class="fa fa-user-circle"></i> Login</h3>
+                            </div>
+                            <div class="card-body">
+                                {% include "AppBundle:Security:login_content.html.twig" %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

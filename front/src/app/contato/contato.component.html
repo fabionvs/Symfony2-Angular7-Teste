@@ -1,0 +1,34 @@
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+    <h5 class="my-0 mr-md-auto font-weight-normal">Lista de Contatos</h5>
+</div>
+<div class="container">
+    <div class="col-md-12">
+        <div class="table-responsive">
+            <table #dataTable class="table table-striped display" style="width:100%">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Email</th>
+                    <th>Opções</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor ="let c of contatos;">
+                    <td>{{c.id}}</td>
+                    <td>{{c.nome}}</td>
+                    <td>{{c.telefone}}</td>
+                    <td>{{c.email}}</td>
+                    <td>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-sm btn-danger">Excluir</button>
+                            <button type="button" class="btn btn-sm btn-success" [routerLink]="['/novo-endereco',c.id]">Adicionar Endereço</button>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
