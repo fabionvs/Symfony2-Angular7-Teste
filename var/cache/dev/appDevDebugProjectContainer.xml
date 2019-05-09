@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
   <parameters>
-    <parameter key="kernel.root_dir">/var/www/html/teste4/app</parameter>
-    <parameter key="kernel.project_dir">/var/www/html/teste4</parameter>
+    <parameter key="kernel.root_dir">/var/www/html/Symfony2-Angular7-Teste/app</parameter>
+    <parameter key="kernel.project_dir">/var/www/html/Symfony2-Angular7-Teste</parameter>
     <parameter key="kernel.environment">dev</parameter>
     <parameter key="kernel.debug">true</parameter>
     <parameter key="kernel.name">app</parameter>
-    <parameter key="kernel.cache_dir">/var/www/html/teste4/var/cache/dev</parameter>
-    <parameter key="kernel.logs_dir">/var/www/html/teste4/var/logs</parameter>
+    <parameter key="kernel.cache_dir">/var/www/html/Symfony2-Angular7-Teste/var/cache/dev</parameter>
+    <parameter key="kernel.logs_dir">/var/www/html/Symfony2-Angular7-Teste/var/logs</parameter>
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
       <parameter key="SecurityBundle">Symfony\Bundle\SecurityBundle\SecurityBundle</parameter>
@@ -32,97 +32,97 @@
     <parameter key="kernel.bundles_metadata" type="collection">
       <parameter key="FrameworkBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
       </parameter>
       <parameter key="SecurityBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\SecurityBundle</parameter>
       </parameter>
       <parameter key="TwigBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\TwigBundle</parameter>
       </parameter>
       <parameter key="MonologBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/symfony/monolog-bundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/monolog-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\MonologBundle</parameter>
       </parameter>
       <parameter key="SwiftmailerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/symfony/swiftmailer-bundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/swiftmailer-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\SwiftmailerBundle</parameter>
       </parameter>
       <parameter key="DoctrineBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/doctrine/doctrine-bundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/doctrine/doctrine-bundle</parameter>
         <parameter key="namespace">Doctrine\Bundle\DoctrineBundle</parameter>
       </parameter>
       <parameter key="SensioFrameworkExtraBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/sensio/framework-extra-bundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/sensio/framework-extra-bundle</parameter>
         <parameter key="namespace">Sensio\Bundle\FrameworkExtraBundle</parameter>
       </parameter>
       <parameter key="AppBundle" type="collection">
         <parameter key="parent">FOSUserBundle</parameter>
-        <parameter key="path">/var/www/html/teste4/src/AppBundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/src/AppBundle</parameter>
         <parameter key="namespace">AppBundle</parameter>
       </parameter>
       <parameter key="FOSUserBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/friendsofsymfony/user-bundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle</parameter>
         <parameter key="namespace">FOS\UserBundle</parameter>
       </parameter>
       <parameter key="LexikJWTAuthenticationBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/lexik/jwt-authentication-bundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/lexik/jwt-authentication-bundle</parameter>
         <parameter key="namespace">Lexik\Bundle\JWTAuthenticationBundle</parameter>
       </parameter>
       <parameter key="NelmioApiDocBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/nelmio/api-doc-bundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/nelmio/api-doc-bundle</parameter>
         <parameter key="namespace">Nelmio\ApiDocBundle</parameter>
       </parameter>
       <parameter key="JMSSerializerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/jms/serializer-bundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/jms/serializer-bundle</parameter>
         <parameter key="namespace">JMS\SerializerBundle</parameter>
       </parameter>
       <parameter key="NelmioCorsBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/nelmio/cors-bundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/nelmio/cors-bundle</parameter>
         <parameter key="namespace">Nelmio\CorsBundle</parameter>
       </parameter>
       <parameter key="ApiBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/src/ApiBundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/src/ApiBundle</parameter>
         <parameter key="namespace">ApiBundle</parameter>
       </parameter>
       <parameter key="DebugBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\DebugBundle</parameter>
       </parameter>
       <parameter key="WebProfilerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\WebProfilerBundle</parameter>
       </parameter>
       <parameter key="SensioDistributionBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/sensio/distribution-bundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/sensio/distribution-bundle</parameter>
         <parameter key="namespace">Sensio\Bundle\DistributionBundle</parameter>
       </parameter>
       <parameter key="SensioGeneratorBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/sensio/generator-bundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/sensio/generator-bundle</parameter>
         <parameter key="namespace">Sensio\Bundle\GeneratorBundle</parameter>
       </parameter>
       <parameter key="WebServerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/WebServerBundle</parameter>
+        <parameter key="path">/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/WebServerBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\WebServerBundle</parameter>
       </parameter>
     </parameter>
@@ -156,7 +156,7 @@
       <parameter key="gc_probability">1</parameter>
       <parameter key="use_strict_mode">true</parameter>
     </parameter>
-    <parameter key="session.save_path">/var/www/html/teste4/var/sessions/dev</parameter>
+    <parameter key="session.save_path">/var/www/html/Symfony2-Angular7-Teste/var/sessions/dev</parameter>
     <parameter key="session.metadata.update_threshold">0</parameter>
     <parameter key="form.type_extension.csrf.enabled">true</parameter>
     <parameter key="form.type_extension.csrf.field_name">_token</parameter>
@@ -167,15 +167,15 @@
       <parameter>twig</parameter>
     </parameter>
     <parameter key="validator.mapping.cache.prefix"></parameter>
-    <parameter key="validator.mapping.cache.file">/var/www/html/teste4/var/cache/dev/validation.php</parameter>
+    <parameter key="validator.mapping.cache.file">/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/validation.php</parameter>
     <parameter key="validator.translation_domain">validators</parameter>
     <parameter key="translator.logging">true</parameter>
-    <parameter key="translator.default_path">/var/www/html/teste4/translations</parameter>
+    <parameter key="translator.default_path">/var/www/html/Symfony2-Angular7-Teste/translations</parameter>
     <parameter key="profiler_listener.only_exceptions">false</parameter>
     <parameter key="profiler_listener.only_master_requests">false</parameter>
-    <parameter key="profiler.storage.dsn">file:/var/www/html/teste4/var/cache/dev/profiler</parameter>
+    <parameter key="profiler.storage.dsn">file:/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/profiler</parameter>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
-    <parameter key="debug.container.dump">/var/www/html/teste4/var/cache/dev/appDevDebugProjectContainer.xml</parameter>
+    <parameter key="debug.container.dump">/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/appDevDebugProjectContainer.xml</parameter>
     <parameter key="router.options.generator_class">Symfony\Component\Routing\Generator\UrlGenerator</parameter>
     <parameter key="router.options.generator_base_class">Symfony\Component\Routing\Generator\UrlGenerator</parameter>
     <parameter key="router.options.generator_dumper_class">Symfony\Component\Routing\Generator\Dumper\PhpGeneratorDumper</parameter>
@@ -187,7 +187,7 @@
     <parameter key="router.request_context.host">localhost</parameter>
     <parameter key="router.request_context.scheme">http</parameter>
     <parameter key="router.request_context.base_url"></parameter>
-    <parameter key="router.resource">/var/www/html/teste4/app/config/routing_dev.yml</parameter>
+    <parameter key="router.resource">/var/www/html/Symfony2-Angular7-Teste/app/config/routing_dev.yml</parameter>
     <parameter key="router.cache_class_prefix">appDevDebugProjectContainer</parameter>
     <parameter key="request_listener.http_port">80</parameter>
     <parameter key="request_listener.https_port">443</parameter>
@@ -210,7 +210,7 @@
     <parameter key="twig.form.resources" type="collection">
       <parameter>form_div_layout.html.twig</parameter>
     </parameter>
-    <parameter key="twig.default_path">/var/www/html/teste4/templates</parameter>
+    <parameter key="twig.default_path">/var/www/html/Symfony2-Angular7-Teste/templates</parameter>
     <parameter key="monolog.use_microseconds">true</parameter>
     <parameter key="monolog.swift_mailer.handlers" type="collection"/>
     <parameter key="monolog.handlers_to_channels" type="collection">
@@ -254,7 +254,7 @@
     <parameter key="swiftmailer.mailer.default.transport.smtp.timeout">30</parameter>
     <parameter key="swiftmailer.mailer.default.transport.smtp.source_ip">null</parameter>
     <parameter key="swiftmailer.mailer.default.transport.smtp.local_domain">null</parameter>
-    <parameter key="swiftmailer.spool.default.memory.path">/var/www/html/teste4/var/cache/dev/swiftmailer/spool/default</parameter>
+    <parameter key="swiftmailer.spool.default.memory.path">/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/swiftmailer/spool/default</parameter>
     <parameter key="swiftmailer.mailer.default.spool.enabled">true</parameter>
     <parameter key="swiftmailer.mailer.default.plugin.impersonate">null</parameter>
     <parameter key="swiftmailer.mailer.default.single_address">null</parameter>
@@ -373,7 +373,7 @@
     <parameter key="doctrine.orm.second_level_cache.cache_configuration.class">Doctrine\ORM\Cache\CacheConfiguration</parameter>
     <parameter key="doctrine.orm.second_level_cache.regions_configuration.class">Doctrine\ORM\Cache\RegionsConfiguration</parameter>
     <parameter key="doctrine.orm.auto_generate_proxy_classes">true</parameter>
-    <parameter key="doctrine.orm.proxy_dir">/var/www/html/teste4/var/cache/dev/doctrine/orm/Proxies</parameter>
+    <parameter key="doctrine.orm.proxy_dir">/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/doctrine/orm/Proxies</parameter>
     <parameter key="doctrine.orm.proxy_namespace">Proxies</parameter>
     <parameter key="fos_user.backend_type_orm">true</parameter>
     <parameter key="fos_user.security.interactive_login_listener.class">FOS\UserBundle\EventListener\LastLoginListener</parameter>
@@ -417,8 +417,8 @@
       <parameter>ResetPassword</parameter>
       <parameter>Default</parameter>
     </parameter>
-    <parameter key="lexik_jwt_authentication.private_key_path">/var/www/html/teste4/app/../config/jwt/private.pem</parameter>
-    <parameter key="lexik_jwt_authentication.public_key_path">/var/www/html/teste4/app/../config/jwt/public.pem</parameter>
+    <parameter key="lexik_jwt_authentication.private_key_path">/var/www/html/Symfony2-Angular7-Teste/app/../config/jwt/private.pem</parameter>
+    <parameter key="lexik_jwt_authentication.public_key_path">/var/www/html/Symfony2-Angular7-Teste/app/../config/jwt/public.pem</parameter>
     <parameter key="lexik_jwt_authentication.pass_phrase">1234</parameter>
     <parameter key="lexik_jwt_authentication.token_ttl">3600</parameter>
     <parameter key="lexik_jwt_authentication.clock_skew">0</parameter>
@@ -795,9 +795,9 @@
     <service id="filesystem" class="Symfony\Component\Filesystem\Filesystem" public="true"/>
     <service id="file_locator" class="Symfony\Component\HttpKernel\Config\FileLocator">
       <argument type="service" id="kernel"/>
-      <argument>/var/www/html/teste4/app/Resources</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/app/Resources</argument>
       <argument type="collection">
-        <argument>/var/www/html/teste4/app</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/app</argument>
       </argument>
     </service>
     <service id="uri_signer" class="Symfony\Component\HttpKernel\UriSigner">
@@ -949,8 +949,8 @@
       <argument type="service" id="translator.data_collector"/>
       <argument type="service" id="translation.reader"/>
       <argument type="service" id="translation.extractor"/>
-      <argument>/var/www/html/teste4/translations</argument>
-      <argument>/var/www/html/teste4/templates</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/translations</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/templates</argument>
       <call method="setName">
         <argument>debug:translation</argument>
       </call>
@@ -961,8 +961,8 @@
       <argument type="service" id="translation.reader"/>
       <argument type="service" id="translation.extractor"/>
       <argument>en</argument>
-      <argument>/var/www/html/teste4/translations</argument>
-      <argument>/var/www/html/teste4/templates</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/translations</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/templates</argument>
       <call method="setName">
         <argument>translation:update</argument>
       </call>
@@ -1045,7 +1045,7 @@
       <argument></argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/var/www/html/teste4/var/cache/dev/pools</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -1074,7 +1074,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>/var/www/html/teste4/var/cache/dev/pools</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/pools</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
@@ -1132,14 +1132,14 @@
       </argument>
     </service>
     <service id="translator.selector" class="Symfony\Component\Translation\MessageSelector" public="false"/>
-    <service id="2_ServiceLocator~yowpj7l" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id="2_ServiceLocator~wrt7rex" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="session" type="service" id="session" on-invalid="ignore"/>
       </argument>
     </service>
-    <service id="1_NativeFileSessionHandler~yowpj7l" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler" public="false">
-      <argument>/var/www/html/teste4/var/sessions/dev</argument>
+    <service id="1_NativeFileSessionHandler~wrt7rex" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler" public="false">
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/sessions/dev</argument>
     </service>
     <service id="session" class="Symfony\Component\HttpFoundation\Session\Session" public="true">
       <argument type="service" id="session.storage.native"/>
@@ -1162,12 +1162,12 @@
     <service id="session.flash_bag" class="Symfony\Component\HttpFoundation\Session\Flash\FlashBag" public="false"/>
     <service id="session.attribute_bag" class="Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag" public="false"/>
     <service id="session.storage.mock_file" class="Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage" public="false">
-      <argument>/var/www/html/teste4/var/cache/dev/sessions</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/sessions</argument>
       <argument>MOCKSESSID</argument>
       <argument type="service" id="session.storage.metadata_bag"/>
     </service>
     <service id="session.handler.native_file" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler" public="false">
-      <argument type="service" id="1_NativeFileSessionHandler~yowpj7l"/>
+      <argument type="service" id="1_NativeFileSessionHandler~wrt7rex"/>
     </service>
     <service id="session.handler.write_check" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\WriteCheckSessionHandler" public="false">
       <deprecated>The "%service_id%" service is deprecated since Symfony 3.4 and will be removed in 4.0. Use the `session.lazy_write` ini setting instead.</deprecated>
@@ -1177,7 +1177,7 @@
       <tag name="container.hot_path"/>
       <tag name="container.hot_path"/>
       <tag name="container.hot_path"/>
-      <argument type="service" id="2_ServiceLocator~yowpj7l"/>
+      <argument type="service" id="2_ServiceLocator~wrt7rex"/>
     </service>
     <service id="session.save_listener" class="Symfony\Component\HttpKernel\EventListener\SaveSessionListener">
       <tag name="kernel.event_subscriber"/>
@@ -1193,7 +1193,7 @@
       <argument type="service" id="request_stack" on-invalid="ignore"/>
     </service>
     <service id="form.resolved_type_factory" class="Symfony\Component\Form\Extension\DataCollector\Proxy\ResolvedTypeFactoryDataCollectorProxy">
-      <argument type="service" id="1_ResolvedFormTypeFactory~yau31tw"/>
+      <argument type="service" id="1_ResolvedFormTypeFactory~3mom4ug"/>
       <argument type="service" id="data_collector.form"/>
     </service>
     <service id="form.registry" class="Symfony\Component\Form\FormRegistry">
@@ -1424,12 +1424,12 @@
     <service id="templating.filename_parser" class="Symfony\Bundle\FrameworkBundle\Templating\TemplateFilenameParser"/>
     <service id="templating.locator" class="Symfony\Bundle\FrameworkBundle\Templating\Loader\TemplateLocator" public="false">
       <argument type="service" id="file_locator"/>
-      <argument>/var/www/html/teste4/var/cache/dev</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev</argument>
     </service>
     <service id="templating.finder" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\TemplateFinder" public="false">
       <argument type="service" id="kernel"/>
       <argument type="service" id="templating.filename_parser"/>
-      <argument>/var/www/html/teste4/app/Resources</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/app/Resources</argument>
     </service>
     <service id="templating.cache_warmer.template_paths" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\TemplatePathsCacheWarmer" public="false">
       <tag name="kernel.cache_warmer" priority="20"/>
@@ -1453,13 +1453,13 @@
         <argument type="service" id="monolog.logger.templating" on-invalid="ignore"/>
       </call>
     </service>
-    <service id="2_ApcCache~ewg7zfu" class="Doctrine\Common\Cache\ApcCache" public="false">
+    <service id="2_ApcCache~k3nua_6" class="Doctrine\Common\Cache\ApcCache" public="false">
       <call method="setNamespace">
         <argument></argument>
       </call>
     </service>
-    <service id="1_PhpArrayAdapter~ewg7zfu" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
-      <argument>/var/www/html/teste4/var/cache/dev/validation.php</argument>
+    <service id="1_PhpArrayAdapter~k3nua_6" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/validation.php</argument>
       <argument type="service" id="cache.validator"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -1475,8 +1475,8 @@
       </call>
       <call method="addXmlMappings">
         <argument type="collection">
-          <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/config/validation.xml</argument>
-          <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/config/validation.xml</argument>
+          <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/config/validation.xml</argument>
+          <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/config/validation.xml</argument>
         </argument>
       </call>
       <call method="enableAnnotationMapping">
@@ -1492,21 +1492,21 @@
         </argument>
       </call>
       <call method="addXmlMapping">
-        <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/DependencyInjection/Compiler/../../Resources/config/storage-validation/orm.xml</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/DependencyInjection/Compiler/../../Resources/config/storage-validation/orm.xml</argument>
       </call>
       <factory class="Symfony\Component\Validator\Validation" method="createValidatorBuilder"/>
     </service>
     <service id="validator.mapping.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\ValidatorCacheWarmer" public="false">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="validator.builder"/>
-      <argument>/var/www/html/teste4/var/cache/dev/validation.php</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/validation.php</argument>
       <argument type="service" id="cache.validator"/>
     </service>
     <service id="validator.mapping.cache.symfony" class="Symfony\Component\Validator\Mapping\Cache\Psr6Cache" public="false">
-      <argument type="service" id="1_PhpArrayAdapter~ewg7zfu"/>
+      <argument type="service" id="1_PhpArrayAdapter~k3nua_6"/>
     </service>
     <service id="validator.mapping.cache.doctrine.apc" class="Symfony\Component\Validator\Mapping\Cache\DoctrineCache" public="false">
-      <argument type="service" id="2_ApcCache~ewg7zfu"/>
+      <argument type="service" id="2_ApcCache~k3nua_6"/>
       <deprecated>The "%service_id%" service is deprecated since Symfony 3.4 and will be removed in 4.0. Use a Psr6 cache like "validator.mapping.cache.symfony" instead.</deprecated>
     </service>
     <service id="validator.validator_factory" class="Symfony\Component\Validator\ContainerConstraintValidatorFactory" public="false">
@@ -1567,345 +1567,345 @@
         </argument>
       </argument>
       <argument type="collection">
-        <argument key="cache_dir">/var/www/html/teste4/var/cache/dev/translations</argument>
+        <argument key="cache_dir">/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/translations</argument>
         <argument key="debug">true</argument>
         <argument key="resource_files" type="collection">
           <argument key="af" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.af.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.af.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.af.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.af.yml</argument>
           </argument>
           <argument key="ar" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ar.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ar.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ar.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ar.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.ar.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ar.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ar.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ar.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ar.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.ar.yml</argument>
           </argument>
           <argument key="az" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.az.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.az.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.az.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.az.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.az.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.az.xlf</argument>
           </argument>
           <argument key="bg" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.bg.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.bg.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.bg.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.bg.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.bg.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.bg.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.bg.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.bg.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.bg.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.bg.yml</argument>
           </argument>
           <argument key="ca" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ca.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ca.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ca.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ca.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.ca.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ca.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ca.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ca.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ca.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.ca.yml</argument>
           </argument>
           <argument key="cs" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.cs.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.cs.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.cs.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.cs.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.cs.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.cs.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.cs.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.cs.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.cs.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.cs.yml</argument>
           </argument>
           <argument key="cy" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.cy.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.cy.xlf</argument>
           </argument>
           <argument key="da" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.da.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.da.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.da.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.da.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.da.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.da.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.da.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.da.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.da.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.da.yml</argument>
           </argument>
           <argument key="de" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.de.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.de.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.de.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.de.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.de.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.de.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.de.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.de.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.de.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.de.yml</argument>
           </argument>
           <argument key="el" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.el.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.el.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.el.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.el.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.el.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.el.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.el.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.el.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.el.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.el.yml</argument>
           </argument>
           <argument key="en" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.en.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.en.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.en.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.en.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.en.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.en.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.en.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.en.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.en.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.en.yml</argument>
           </argument>
           <argument key="es" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.es.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.es.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.es.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.es.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.es.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.es.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.es.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.es.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.es.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.es.yml</argument>
           </argument>
           <argument key="et" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.et.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.et.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.et.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.et.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.et.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.et.yml</argument>
           </argument>
           <argument key="eu" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.eu.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.eu.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.eu.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.eu.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.eu.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.eu.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.eu.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.eu.yml</argument>
           </argument>
           <argument key="fa" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fa.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.fa.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.fa.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.fa.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.fa.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fa.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.fa.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.fa.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.fa.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.fa.yml</argument>
           </argument>
           <argument key="fi" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fi.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.fi.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.fi.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.fi.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fi.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.fi.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.fi.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.fi.yml</argument>
           </argument>
           <argument key="fr" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fr.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.fr.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.fr.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.fr.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.fr.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.fr.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.fr.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.fr.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.fr.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.fr.yml</argument>
           </argument>
           <argument key="gl" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.gl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.gl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.gl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.gl.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.gl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.gl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.gl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.gl.yml</argument>
           </argument>
           <argument key="he" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.he.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.he.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.he.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.he.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.he.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.he.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.he.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.he.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.he.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.he.yml</argument>
           </argument>
           <argument key="hr" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hr.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.hr.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.hr.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.hr.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.hr.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hr.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.hr.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.hr.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.hr.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.hr.yml</argument>
           </argument>
           <argument key="hu" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hu.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.hu.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.hu.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.hu.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.hu.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hu.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.hu.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.hu.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.hu.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.hu.yml</argument>
           </argument>
           <argument key="hy" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hy.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.hy.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.hy.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.hy.xlf</argument>
           </argument>
           <argument key="id" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.id.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.id.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.id.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.id.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.id.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.id.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.id.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.id.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.id.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.id.yml</argument>
           </argument>
           <argument key="it" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.it.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.it.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.it.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.it.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.it.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.it.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.it.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.it.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.it.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.it.yml</argument>
           </argument>
           <argument key="ja" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ja.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ja.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ja.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ja.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.ja.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ja.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ja.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ja.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ja.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.ja.yml</argument>
           </argument>
           <argument key="lb" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lb.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.lb.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.lb.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.lb.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lb.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.lb.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.lb.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.lb.yml</argument>
           </argument>
           <argument key="lt" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lt.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.lt.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.lt.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.lt.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.lt.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lt.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.lt.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.lt.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.lt.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.lt.yml</argument>
           </argument>
           <argument key="lv" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lv.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.lv.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.lv.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.lv.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.lv.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.lv.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.lv.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.lv.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.lv.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.lv.yml</argument>
           </argument>
           <argument key="mn" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.mn.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.mn.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.mn.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.mn.xlf</argument>
           </argument>
           <argument key="nb" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nb.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.nb.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.nb.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.nb.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.nb.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nb.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.nb.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.nb.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.nb.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.nb.yml</argument>
           </argument>
           <argument key="nl" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.nl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.nl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.nl.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.nl.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.nl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.nl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.nl.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.nl.yml</argument>
           </argument>
           <argument key="nn" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nn.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.nn.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.nn.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.nn.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.nn.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.nn.xlf</argument>
           </argument>
           <argument key="no" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.no.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.no.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.no.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.no.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.no.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.no.xlf</argument>
           </argument>
           <argument key="pl" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.pl.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.pl.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.pl.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.pl.yml</argument>
           </argument>
           <argument key="pt" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pt.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.pt.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.pt.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pt.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.pt.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.pt.yml</argument>
           </argument>
           <argument key="pt_BR" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt_BR.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pt_BR.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pt_BR.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.pt_BR.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.pt_BR.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.pt_BR.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.pt_BR.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pt_BR.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.pt_BR.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.pt_BR.yml</argument>
           </argument>
           <argument key="ro" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ro.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ro.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ro.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ro.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.ro.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ro.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ro.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ro.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ro.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.ro.yml</argument>
           </argument>
           <argument key="ru" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ru.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ru.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ru.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ru.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.ru.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.ru.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.ru.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ru.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ru.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.ru.yml</argument>
           </argument>
           <argument key="sk" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sk.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sk.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sk.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.sk.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.sk.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sk.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sk.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sk.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.sk.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.sk.yml</argument>
           </argument>
           <argument key="sl" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.sl.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.sl.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.sl.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.sl.yml</argument>
           </argument>
           <argument key="sq" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sq.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sq.xlf</argument>
           </argument>
           <argument key="sr_Cyrl" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sr_Cyrl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sr_Cyrl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sr_Cyrl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sr_Cyrl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sr_Cyrl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sr_Cyrl.xlf</argument>
           </argument>
           <argument key="sr_Latn" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sr_Latn.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sr_Latn.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sr_Latn.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.sr_Latn.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.sr_Latn.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sr_Latn.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sr_Latn.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sr_Latn.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.sr_Latn.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.sr_Latn.yml</argument>
           </argument>
           <argument key="sv" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sv.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sv.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sv.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.sv.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.sv.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.sv.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.sv.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.sv.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.sv.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.sv.yml</argument>
           </argument>
           <argument key="th" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.th.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.th.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.th.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.th.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.th.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.th.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.th.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.th.yml</argument>
           </argument>
           <argument key="tl" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.tl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.tl.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.tl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.tl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.tl.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.tl.xlf</argument>
           </argument>
           <argument key="tr" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.tr.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.tr.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.tr.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.tr.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.tr.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.tr.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.tr.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.tr.yml</argument>
           </argument>
           <argument key="uk" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.uk.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.uk.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.uk.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.uk.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.uk.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.uk.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.uk.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.uk.yml</argument>
           </argument>
           <argument key="vi" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.vi.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.vi.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.vi.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.vi.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.vi.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.vi.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.vi.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.vi.yml</argument>
           </argument>
           <argument key="zh_CN" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.zh_CN.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.zh_CN.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.zh_CN.xlf</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.zh_CN.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.zh_CN.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.zh_CN.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/translations/validators.zh_CN.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.zh_CN.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.zh_CN.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.zh_CN.yml</argument>
           </argument>
           <argument key="zh_TW" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.zh_TW.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Validator/Resources/translations/validators.zh_TW.xlf</argument>
           </argument>
           <argument key="pt_PT" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pt_PT.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.pt_PT.xlf</argument>
           </argument>
           <argument key="ua" type="collection">
-            <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ua.xlf</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Resources/translations/security.ua.xlf</argument>
           </argument>
           <argument key="bn" type="collection">
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.bn.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.bn.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.bn.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.bn.yml</argument>
           </argument>
           <argument key="bn_BD" type="collection">
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.bn_BD.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.bn_BD.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.bn_BD.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.bn_BD.yml</argument>
           </argument>
           <argument key="eo" type="collection">
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.eo.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.eo.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.eo.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.eo.yml</argument>
           </argument>
           <argument key="ky" type="collection">
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ky.yml</argument>
-            <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.ky.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/FOSUserBundle.ky.yml</argument>
+            <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/translations/validators.ky.yml</argument>
           </argument>
         </argument>
       </argument>
@@ -2235,7 +2235,7 @@
       </call>
     </service>
     <service id="profiler.storage" class="Symfony\Component\HttpKernel\Profiler\FileProfilerStorage" public="false">
-      <argument>file:/var/www/html/teste4/var/cache/dev/profiler</argument>
+      <argument>file:/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/profiler</argument>
     </service>
     <service id="profiler_listener" class="Symfony\Component\HttpKernel\EventListener\ProfilerListener">
       <tag name="kernel.event_subscriber"/>
@@ -2272,7 +2272,7 @@
       <tag name="data_collector" template="@WebProfiler/Collector/logger.html.twig" id="logger" priority="300"/>
       <tag name="monolog.logger" channel="profiler"/>
       <argument type="service" id="monolog.logger.profiler" on-invalid="ignore"/>
-      <argument>/var/www/html/teste4/var/cache/dev/appDevDebugProjectContainer</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/appDevDebugProjectContainer</argument>
     </service>
     <service id="data_collector.time" class="Symfony\Component\HttpKernel\DataCollector\TimeDataCollector" public="false">
       <tag name="data_collector" template="@WebProfiler/Collector/time.html.twig" id="time" priority="330"/>
@@ -2310,7 +2310,7 @@
         <argument type="service" id="cache.annotations"/>
       </call>
     </service>
-    <service id="1_ResolvedFormTypeFactory~yau31tw" class="Symfony\Component\Form\ResolvedFormTypeFactory" public="false"/>
+    <service id="1_ResolvedFormTypeFactory~3mom4ug" class="Symfony\Component\Form\ResolvedFormTypeFactory" public="false"/>
     <service id="form.type_extension.form.data_collector" class="Symfony\Component\Form\Extension\DataCollector\Type\DataCollectorTypeExtension" public="false">
       <tag name="form.type_extension" extended_type="Symfony\Component\Form\Extension\Core\Type\FormType" extended-type="Symfony\Component\Form\Extension\Core\Type\FormType"/>
       <argument type="service" id="data_collector.form"/>
@@ -2368,7 +2368,7 @@
     <service id="debug.file_link_formatter" class="Symfony\Component\HttpKernel\Debug\FileLinkFormatter" public="false">
       <argument>null</argument>
       <argument type="service" id="request_stack" on-invalid="ignore"/>
-      <argument>/var/www/html/teste4</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste</argument>
       <argument type="service" id="debug.file_link_formatter.url_format"/>
     </service>
     <service id="debug.stopwatch" class="Symfony\Component\Stopwatch\Stopwatch">
@@ -2948,9 +2948,9 @@
     </service>
     <service id="router.default" class="Symfony\Bundle\FrameworkBundle\Routing\Router" public="false">
       <argument type="service" id="service_container"/>
-      <argument>/var/www/html/teste4/app/config/routing_dev.yml</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/app/config/routing_dev.yml</argument>
       <argument type="collection">
-        <argument key="cache_dir">/var/www/html/teste4/var/cache/dev</argument>
+        <argument key="cache_dir">/var/www/html/Symfony2-Angular7-Teste/var/cache/dev</argument>
         <argument key="debug">true</argument>
         <argument key="generator_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
         <argument key="generator_base_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
@@ -2989,7 +2989,7 @@
       <argument type="service" id="request_stack"/>
       <argument type="service" id="router.request_context" on-invalid="ignore"/>
       <argument type="service" id="monolog.logger.request" on-invalid="ignore"/>
-      <argument>/var/www/html/teste4</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste</argument>
       <argument>true</argument>
     </service>
     <service id="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" class="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" public="true">
@@ -3015,12 +3015,12 @@
       <argument type="service" id="file_locator"/>
       <argument type="service" id="routing.loader.annotation"/>
     </service>
-    <service id="2_PhpArrayAdapter~bjxh_cm" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
-      <argument>/var/www/html/teste4/var/cache/dev/annotations.php</argument>
+    <service id="2_PhpArrayAdapter~y2vqsrq" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/annotations.php</argument>
       <argument type="service" id="cache.annotations"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
-    <service id="1_ArrayCache~bjxh_cm" class="Doctrine\Common\Cache\ArrayCache" public="false"/>
+    <service id="1_ArrayCache~y2vqsrq" class="Doctrine\Common\Cache\ArrayCache" public="false"/>
     <service id="annotations.reader" class="Doctrine\Common\Annotations\AnnotationReader" public="false">
       <call method="addGlobalIgnoredName">
         <argument>required</argument>
@@ -3035,7 +3035,7 @@
     <service id="annotations.cached_reader" class="Doctrine\Common\Annotations\CachedReader" public="false">
       <tag name="annotations.cached_reader"/>
       <argument type="service" id="annotations.reader"/>
-      <argument type="service" id="1_ArrayCache~bjxh_cm"/>
+      <argument type="service" id="1_ArrayCache~y2vqsrq"/>
       <argument>true</argument>
       <property name="cacheProviderBackup" type="service" id="annotations.cache"/>
     </service>
@@ -3045,13 +3045,13 @@
     <service id="annotations.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\AnnotationsCacheWarmer" public="false">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="annotations.reader"/>
-      <argument>/var/www/html/teste4/var/cache/dev/annotations.php</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/annotations.php</argument>
       <argument type="service" id="cache.annotations"/>
       <argument>#^Symfony\\(?:Component\\HttpKernel\\|Bundle\\FrameworkBundle\\Controller\\(?!AbstractController$|Controller$))#</argument>
       <argument>true</argument>
     </service>
     <service id="annotations.cache" class="Symfony\Component\Cache\DoctrineProvider" public="false">
-      <argument type="service" id="2_PhpArrayAdapter~bjxh_cm"/>
+      <argument type="service" id="2_PhpArrayAdapter~y2vqsrq"/>
     </service>
     <service id="property_accessor" class="Symfony\Component\PropertyAccess\PropertyAccessor">
       <argument>false</argument>
@@ -3084,7 +3084,7 @@
       <tag name="property_info.description_extractor" priority="-1000"/>
       <tag name="property_info.type_extractor" priority="-1001"/>
     </service>
-    <service id="1_ServiceLocator~9ybkn5j" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id="1_ServiceLocator~gxp6azs" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="security.authorization_checker" type="service" id="security.authorization_checker"/>
@@ -3101,7 +3101,7 @@
       <tag name="kernel.reset" method="setToken"/>
     </service>
     <service id="security.helper" class="Symfony\Component\Security\Core\Security" public="false">
-      <argument type="service" id="1_ServiceLocator~9ybkn5j"/>
+      <argument type="service" id="1_ServiceLocator~gxp6azs"/>
     </service>
     <service id="security.user_value_resolver" class="Symfony\Bundle\SecurityBundle\SecurityUserValueResolver" public="false">
       <tag name="controller.argument_value_resolver" priority="40"/>
@@ -3949,9 +3949,9 @@
           <argument>form_div_layout.html.twig</argument>
         </argument>
         <argument key="autoescape">name</argument>
-        <argument key="cache">/var/www/html/teste4/var/cache/dev/twig</argument>
+        <argument key="cache">/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/twig</argument>
         <argument key="charset">UTF-8</argument>
-        <argument key="default_path">/var/www/html/teste4/templates</argument>
+        <argument key="default_path">/var/www/html/Symfony2-Angular7-Teste/templates</argument>
         <argument key="paths" type="collection"/>
         <argument key="date" type="collection">
           <argument key="format">F j, Y H:i</argument>
@@ -4044,16 +4044,16 @@
       <argument type="service" id="service_locator.c7_qahl.twig.cache_warmer"/>
       <argument type="service" id="templating.finder" on-invalid="ignore"/>
       <argument type="collection">
-        <argument key="/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form">null</argument>
+        <argument key="/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form">null</argument>
       </argument>
     </service>
     <service id="twig.template_iterator" class="Symfony\Bundle\TwigBundle\TemplateIterator" public="false">
       <argument type="service" id="kernel"/>
-      <argument>/var/www/html/teste4/app</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/app</argument>
       <argument type="collection">
-        <argument key="/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form">null</argument>
+        <argument key="/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form">null</argument>
       </argument>
-      <argument>/var/www/html/teste4/templates</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/templates</argument>
     </service>
     <service id="twig.template_cache_warmer" class="Symfony\Bundle\TwigBundle\CacheWarmer\TemplateCacheWarmer" public="false">
       <tag name="kernel.cache_warmer"/>
@@ -4063,100 +4063,100 @@
     </service>
     <service id="twig.loader.native_filesystem" class="Twig\Loader\FilesystemLoader" public="false">
       <argument type="collection"/>
-      <argument>/var/www/html/teste4</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste</argument>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
         <argument>Framework</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
         <argument>!Framework</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
         <argument>Security</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
         <argument>!Security</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
         <argument>Twig</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
         <argument>!Twig</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
         <argument>Swiftmailer</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
         <argument>!Swiftmailer</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/doctrine/doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/doctrine/doctrine-bundle/Resources/views</argument>
         <argument>!Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/src/AppBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/src/AppBundle/Resources/views</argument>
         <argument>App</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/src/AppBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/src/AppBundle/Resources/views</argument>
         <argument>FOSUser</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/views</argument>
         <argument>FOSUser</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/views</argument>
         <argument>!FOSUser</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/nelmio/api-doc-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/nelmio/api-doc-bundle/Resources/views</argument>
         <argument>NelmioApiDoc</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/nelmio/api-doc-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/nelmio/api-doc-bundle/Resources/views</argument>
         <argument>!NelmioApiDoc</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/src/ApiBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/src/ApiBundle/Resources/views</argument>
         <argument>Api</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/src/ApiBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/src/ApiBundle/Resources/views</argument>
         <argument>!Api</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
         <argument>Debug</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
         <argument>!Debug</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
         <argument>WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
         <argument>!WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/app/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/app/Resources/views</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form</argument>
       </call>
     </service>
     <service id="twig.loader.chain" class="Twig\Loader\ChainLoader" public="false"/>
@@ -4182,7 +4182,7 @@
     <service id="twig.extension.code" class="Symfony\Bridge\Twig\Extension\CodeExtension" public="false">
       <tag name="twig.extension"/>
       <argument type="service" id="debug.file_link_formatter" on-invalid="ignore"/>
-      <argument>/var/www/html/teste4/app</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/app</argument>
       <argument>UTF-8</argument>
     </service>
     <service id="twig.extension.routing" class="Symfony\Bridge\Twig\Extension\RoutingExtension" public="false">
@@ -4266,100 +4266,100 @@
       <tag name="twig.loader"/>
       <argument type="service" id="templating.locator"/>
       <argument type="service" id="templating.name_parser"/>
-      <argument>/var/www/html/teste4</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste</argument>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
         <argument>Framework</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
         <argument>!Framework</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
         <argument>Security</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
         <argument>!Security</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
         <argument>Twig</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
         <argument>!Twig</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
         <argument>Swiftmailer</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
         <argument>!Swiftmailer</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/doctrine/doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/doctrine/doctrine-bundle/Resources/views</argument>
         <argument>!Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/src/AppBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/src/AppBundle/Resources/views</argument>
         <argument>App</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/src/AppBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/src/AppBundle/Resources/views</argument>
         <argument>FOSUser</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/views</argument>
         <argument>FOSUser</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/views</argument>
         <argument>!FOSUser</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/nelmio/api-doc-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/nelmio/api-doc-bundle/Resources/views</argument>
         <argument>NelmioApiDoc</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/nelmio/api-doc-bundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/nelmio/api-doc-bundle/Resources/views</argument>
         <argument>!NelmioApiDoc</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/src/ApiBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/src/ApiBundle/Resources/views</argument>
         <argument>Api</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/src/ApiBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/src/ApiBundle/Resources/views</argument>
         <argument>!Api</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
         <argument>Debug</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
         <argument>!Debug</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
         <argument>WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
         <argument>!WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/app/Resources/views</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/app/Resources/views</argument>
       </call>
       <call method="addPath">
-        <argument>/var/www/html/teste4/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form</argument>
       </call>
     </service>
     <service id="templating.engine.twig" class="Symfony\Bundle\TwigBundle\TwigEngine" public="false">
@@ -4370,7 +4370,7 @@
     <service id="twig.command.debug" class="Symfony\Bridge\Twig\Command\DebugCommand" public="false">
       <tag name="console.command" command="debug:twig"/>
       <argument type="service" id="twig"/>
-      <argument>/var/www/html/teste4</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste</argument>
       <call method="setName">
         <argument>debug:twig</argument>
       </call>
@@ -4422,7 +4422,7 @@
     </service>
     <service id="monolog.processor.psr_log_message" class="Monolog\Processor\PsrLogMessageProcessor" public="false"/>
     <service id="monolog.handler.main" class="Monolog\Handler\StreamHandler">
-      <argument>/var/www/html/teste4/var/logs/dev.log</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/logs/dev.log</argument>
       <argument>100</argument>
       <argument>true</argument>
       <argument>null</argument>
@@ -4441,9 +4441,9 @@
       <argument>100</argument>
       <argument>true</argument>
     </service>
-    <service id="3_Swift_Transport_Esmtp_Auth_PlainAuthenticator~zqi8z41" class="Swift_Transport_Esmtp_Auth_PlainAuthenticator" public="false"/>
-    <service id="2_Swift_Transport_Esmtp_Auth_LoginAuthenticator~zqi8z41" class="Swift_Transport_Esmtp_Auth_LoginAuthenticator" public="false"/>
-    <service id="1_Swift_Transport_Esmtp_Auth_CramMd5Authenticator~zqi8z41" class="Swift_Transport_Esmtp_Auth_CramMd5Authenticator" public="false"/>
+    <service id="3_Swift_Transport_Esmtp_Auth_PlainAuthenticator~mwjbg_t" class="Swift_Transport_Esmtp_Auth_PlainAuthenticator" public="false"/>
+    <service id="2_Swift_Transport_Esmtp_Auth_LoginAuthenticator~mwjbg_t" class="Swift_Transport_Esmtp_Auth_LoginAuthenticator" public="false"/>
+    <service id="1_Swift_Transport_Esmtp_Auth_CramMd5Authenticator~mwjbg_t" class="Swift_Transport_Esmtp_Auth_CramMd5Authenticator" public="false"/>
     <service id="swiftmailer.mailer.abstract" class="Swift_Mailer" public="true" abstract="true">
       <argument type="service" id="swiftmailer.mailer.default.transport.spool"/>
     </service>
@@ -4460,9 +4460,9 @@
     </service>
     <service id="swiftmailer.transport.authhandler.abstract" class="Swift_Transport_Esmtp_AuthHandler" public="false" abstract="true">
       <argument type="collection">
-        <argument type="service" id="1_Swift_Transport_Esmtp_Auth_CramMd5Authenticator~zqi8z41"/>
-        <argument type="service" id="2_Swift_Transport_Esmtp_Auth_LoginAuthenticator~zqi8z41"/>
-        <argument type="service" id="3_Swift_Transport_Esmtp_Auth_PlainAuthenticator~zqi8z41"/>
+        <argument type="service" id="1_Swift_Transport_Esmtp_Auth_CramMd5Authenticator~mwjbg_t"/>
+        <argument type="service" id="2_Swift_Transport_Esmtp_Auth_LoginAuthenticator~mwjbg_t"/>
+        <argument type="service" id="3_Swift_Transport_Esmtp_Auth_PlainAuthenticator~mwjbg_t"/>
       </argument>
     </service>
     <service id="swiftmailer.transport.eventdispatcher.abstract" class="Swift_Events_SimpleEventDispatcher" public="false" abstract="true"/>
@@ -4474,7 +4474,7 @@
     <service id="swiftmailer.transport.smtp.abstract" class="Swift_Transport_EsmtpTransport" public="false" abstract="true"/>
     <service id="swiftmailer.transport.spool.abstract" class="Swift_Transport_SpoolTransport" public="false" abstract="true"/>
     <service id="swiftmailer.spool.file.abstract" class="Swift_FileSpool" public="false" abstract="true">
-      <argument>/var/www/html/teste4/app/../data/swiftmailer/spool</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/app/../data/swiftmailer/spool</argument>
     </service>
     <service id="swiftmailer.spool.memory.abstract" class="Swift_MemorySpool" public="false" abstract="true"/>
     <service id="swiftmailer.email_sender.listener" class="Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener">
@@ -4489,9 +4489,9 @@
     <service id="swiftmailer.mailer.default.transport.eventdispatcher" class="Swift_Events_SimpleEventDispatcher" public="false"/>
     <service id="swiftmailer.mailer.default.transport.authhandler" class="Swift_Transport_Esmtp_AuthHandler" public="false">
       <argument type="collection">
-        <argument type="service" id="1_Swift_Transport_Esmtp_Auth_CramMd5Authenticator~zqi8z41"/>
-        <argument type="service" id="2_Swift_Transport_Esmtp_Auth_LoginAuthenticator~zqi8z41"/>
-        <argument type="service" id="3_Swift_Transport_Esmtp_Auth_PlainAuthenticator~zqi8z41"/>
+        <argument type="service" id="1_Swift_Transport_Esmtp_Auth_CramMd5Authenticator~mwjbg_t"/>
+        <argument type="service" id="2_Swift_Transport_Esmtp_Auth_LoginAuthenticator~mwjbg_t"/>
+        <argument type="service" id="3_Swift_Transport_Esmtp_Auth_PlainAuthenticator~mwjbg_t"/>
       </argument>
       <call method="setUsername">
         <argument>null</argument>
@@ -4838,7 +4838,7 @@
         <argument type="service" id="doctrine.orm.default_metadata_driver"/>
       </call>
       <call method="setProxyDir">
-        <argument>/var/www/html/teste4/var/cache/dev/doctrine/orm/Proxies</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/doctrine/orm/Proxies</argument>
       </call>
       <call method="setProxyNamespace">
         <argument>Proxies</argument>
@@ -4868,7 +4868,7 @@
     <service id="doctrine.orm.default_annotation_metadata_driver" class="Doctrine\ORM\Mapping\Driver\AnnotationDriver" public="false">
       <argument type="service" id="annotations.cached_reader"/>
       <argument type="collection">
-        <argument>/var/www/html/teste4/src/AppBundle/Entity</argument>
+        <argument>/var/www/html/Symfony2-Angular7-Teste/src/AppBundle/Entity</argument>
       </argument>
     </service>
     <service id="doctrine.orm.default_metadata_driver" class="Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain" public="false">
@@ -4882,7 +4882,7 @@
             <argument type="service">
               <service class="Doctrine\Common\Persistence\Mapping\Driver\SymfonyFileLocator">
                 <argument type="collection">
-                  <argument key="/var/www/html/teste4/vendor/friendsofsymfony/user-bundle/Resources/config/doctrine-mapping">FOS\UserBundle\Model</argument>
+                  <argument key="/var/www/html/Symfony2-Angular7-Teste/vendor/friendsofsymfony/user-bundle/Resources/config/doctrine-mapping">FOS\UserBundle\Model</argument>
                 </argument>
                 <argument>.orm.xml</argument>
               </service>
@@ -4894,17 +4894,17 @@
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_metadata_cache" class="Doctrine\Common\Cache\ArrayCache" public="true">
       <call method="setNamespace">
-        <argument>sf_orm_default_ef87717ac390850f6641b5df7fb32f24843e14a67fdd4e7616bc24a951fd0450</argument>
+        <argument>sf_orm_default_742a235591c8c6be71712e01be5f0e2a2f3f65740b5c05731edd94a9a912f051</argument>
       </call>
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_result_cache" class="Doctrine\Common\Cache\ArrayCache" public="true">
       <call method="setNamespace">
-        <argument>sf_orm_default_ef87717ac390850f6641b5df7fb32f24843e14a67fdd4e7616bc24a951fd0450</argument>
+        <argument>sf_orm_default_742a235591c8c6be71712e01be5f0e2a2f3f65740b5c05731edd94a9a912f051</argument>
       </call>
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_query_cache" class="Doctrine\Common\Cache\ArrayCache" public="true">
       <call method="setNamespace">
-        <argument>sf_orm_default_ef87717ac390850f6641b5df7fb32f24843e14a67fdd4e7616bc24a951fd0450</argument>
+        <argument>sf_orm_default_742a235591c8c6be71712e01be5f0e2a2f3f65740b5c05731edd94a9a912f051</argument>
       </call>
     </service>
     <service id="doctrine.orm.default_entity_listener_resolver" class="Doctrine\Bundle\DoctrineBundle\Mapping\ContainerAwareEntityListenerResolver">
@@ -5283,8 +5283,8 @@
       <deprecated>The "%service_id%" service is deprecated since version 2.5 and will be removed in 3.0. Use lexik_jwt_authentication.key_loader.raw instead.</deprecated>
     </service>
     <service id="lexik_jwt_authentication.key_loader.raw" class="Lexik\Bundle\JWTAuthenticationBundle\Services\KeyLoader\RawKeyLoader" public="false">
-      <argument>/var/www/html/teste4/app/../config/jwt/private.pem</argument>
-      <argument>/var/www/html/teste4/app/../config/jwt/public.pem</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/app/../config/jwt/private.pem</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/app/../config/jwt/public.pem</argument>
       <argument>1234</argument>
     </service>
     <service id="lexik_jwt_authentication.encoder.default" class="Lexik\Bundle\JWTAuthenticationBundle\Encoder\DefaultEncoder">
@@ -5863,7 +5863,7 @@
       <argument>jms_serializer.metadata_driver</argument>
     </service>
     <service id="jms_serializer.metadata.cache.file_cache" class="Metadata\Cache\FileCache" public="false">
-      <argument>/var/www/html/teste4/var/cache/dev/jms_serializer</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/jms_serializer</argument>
     </service>
     <service id="jms_serializer.metadata_factory" class="Metadata\MetadataFactory" public="false">
       <argument type="service" id="jms_serializer.metadata.lazy_loading_driver"/>
@@ -6048,7 +6048,7 @@
         </argument>
       </call>
     </service>
-    <service id="2_HtmlDumper~tl3ufem" class="Symfony\Component\VarDumper\Dumper\HtmlDumper" public="false">
+    <service id="2_HtmlDumper~ul7prho" class="Symfony\Component\VarDumper\Dumper\HtmlDumper" public="false">
       <argument>null</argument>
       <argument>UTF-8</argument>
       <argument>1</argument>
@@ -6059,7 +6059,7 @@
         </argument>
       </call>
     </service>
-    <service id="1_NonceGenerator~tl3ufem" class="Symfony\Bundle\WebProfilerBundle\Csp\NonceGenerator" public="false"/>
+    <service id="1_NonceGenerator~ul7prho" class="Symfony\Bundle\WebProfilerBundle\Csp\NonceGenerator" public="false"/>
     <service id="web_profiler.controller.profiler" class="Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController" public="true">
       <argument type="service" id="router.default" on-invalid="null"/>
       <argument type="service" id="profiler" on-invalid="null"/>
@@ -6067,7 +6067,7 @@
       <argument>%data_collector.templates%</argument>
       <argument>bottom</argument>
       <argument type="service" id="web_profiler.csp.handler"/>
-      <argument>/var/www/html/teste4</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste</argument>
     </service>
     <service id="web_profiler.controller.router" class="Symfony\Bundle\WebProfilerBundle\Controller\RouterController" public="true">
       <argument type="service" id="profiler" on-invalid="null"/>
@@ -6081,11 +6081,11 @@
       <argument type="service" id="debug.file_link_formatter"/>
     </service>
     <service id="web_profiler.csp.handler" class="Symfony\Bundle\WebProfilerBundle\Csp\ContentSecurityPolicyHandler" public="false">
-      <argument type="service" id="1_NonceGenerator~tl3ufem"/>
+      <argument type="service" id="1_NonceGenerator~ul7prho"/>
     </service>
     <service id="twig.extension.webprofiler" class="Symfony\Bundle\WebProfilerBundle\Twig\WebProfilerExtension" public="false">
       <tag name="twig.extension"/>
-      <argument type="service" id="2_HtmlDumper~tl3ufem"/>
+      <argument type="service" id="2_HtmlDumper~ul7prho"/>
     </service>
     <service id="debug.file_link_formatter.url_format" class="string" public="false">
       <argument type="service" id="router.default"/>
@@ -6114,7 +6114,7 @@
     </service>
     <service id="web_server.command.server_run" class="Symfony\Bundle\WebServerBundle\Command\ServerRunCommand" public="false">
       <tag name="console.command" command="server:run"/>
-      <argument>/var/www/html/teste4/public</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/public</argument>
       <argument>dev</argument>
       <call method="setName">
         <argument>server:run</argument>
@@ -6122,7 +6122,7 @@
     </service>
     <service id="web_server.command.server_start" class="Symfony\Bundle\WebServerBundle\Command\ServerStartCommand" public="false">
       <tag name="console.command" command="server:start"/>
-      <argument>/var/www/html/teste4/public</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/public</argument>
       <argument>dev</argument>
       <call method="setName">
         <argument>server:start</argument>
@@ -6563,42 +6563,42 @@
       </argument>
     </service>
     <service id="cache.app.recorder_inner" class="Symfony\Component\Cache\Adapter\FilesystemAdapter" public="false">
-      <argument>9KDqOouUdL</argument>
+      <argument>NrNwrJKIPI</argument>
       <argument>0</argument>
-      <argument>/var/www/html/teste4/var/cache/dev/pools</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/pools</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
     </service>
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false">
-      <argument>CEMoITSn2W</argument>
+      <argument>2qWZmiU9C+</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/var/www/html/teste4/var/cache/dev/pools</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false">
-      <argument>jZiYuzZmZL</argument>
+      <argument>DIJWgfMfrU</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/var/www/html/teste4/var/cache/dev/pools</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false">
-      <argument>kwLfMNCdKE</argument>
+      <argument>0IXtz2Zr8I</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/var/www/html/teste4/var/cache/dev/pools</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false">
-      <argument>9O2d5MSKrw</argument>
+      <argument>T5dDZHJIjW</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/var/www/html/teste4/var/cache/dev/pools</argument>
+      <argument>/var/www/html/Symfony2-Angular7-Teste/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -6765,8 +6765,8 @@
     <service id="Symfony\Component\Templating\EngineInterface" alias="templating.engine.twig" public="false"/>
     <service id="Symfony\Bundle\FrameworkBundle\Templating\EngineInterface" alias="templating.engine.twig" public="false"/>
     <service id="twig.loader" alias="twig.loader.filesystem"/>
-    <service id="service_locator._fpuy7b" alias="2_ServiceLocator~yowpj7l" public="false"/>
-    <service id="service_locator.ml7rum7" alias="1_ServiceLocator~9ybkn5j" public="false"/>
+    <service id="service_locator._fpuy7b" alias="2_ServiceLocator~wrt7rex" public="false"/>
+    <service id="service_locator.ml7rum7" alias="1_ServiceLocator~gxp6azs" public="false"/>
     <service id="service_locator.ilisd3i" alias="nelmio_api_doc.generator_locator" public="false"/>
     <service id="validator" alias="debug.validator" public="true"/>
     <service id="translator.logging.inner" alias="translator.default" public="false"/>
