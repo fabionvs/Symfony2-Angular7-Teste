@@ -13,8 +13,3 @@ fos_user:
 
 api_login_check:
     path: /api/login_check
-
-app.swagger:
-    path: /api/doc.json
-    methods: GET
-    defaults: { _controller: nelmio_api_doc.controller.swagger }

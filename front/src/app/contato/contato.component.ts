@@ -10,7 +10,7 @@ import {Router} from '@angular/router';
     providers: [ContatoService]
 })
 export class ContatoComponent implements OnInit {
-    contatos;
+    contatos: Contato[];
     dataTable: any;
     editContato: Contato;
 

@@ -2,6 +2,14 @@
 
 {% block body %}
     <div class="container">
+        <h1>Lista de Endereços</h1>
+        {% for message in app.flashes('success') %}
+            <div class="col-md-12">
+                <div class="alert alert-success">
+                    {{ message }}
+                </div>
+            </div>
+        {% endfor %}
         <table class="table">
             <thead class="thead-dark">
             <tr>
@@ -18,12 +26,15 @@
                     <td>{{ e.quadra }}</td>
                     <td>{{ e.numero }}</td>
                     <td>
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                            <a href="{{ path('contatos_show', {'id' : e.contato.id}) }}"><button type="button" class="btn btn-sm btn-primary">Ver Contato</button></a>
-                            <a href="{{ path('endereco_show', {'id' : e.contato.id}) }}"><button type="button" class="btn btn-sm btn-success">Ver Endereço</button></a>
-                            <a href="{{ path('endereco_delete', {'id' : e.id}) }}"><button type="button" class="btn btn-sm btn-danger">Excluir</button></a>
-                            <a href="{{ path('endereco_delete', {'id' : e.id}) }}"><button type="button" class="btn btn-sm btn-warning">Editar</button></a>
-                        </div>
+                        <a href="{{ path('contatos_show', {'id' : e.contato.id}) }}">
+                            <button type="button" class="btn btn-primary">Ver Contato</button>
+                        </a>
+                        <a href="{{ path('endereco_delete', {'id' : e.id}) }}">
+                            <button type="button" class="btn btn-danger">Excluir</button>
+                        </a>
+                        <a href="{{ path('endereco_edit', {'id' : e.id}) }}">
+                            <button type="button" class="btn btn-warning">Editar</button>
+                        </a>
                     </td>
                 </tr>
             {% endfor %}

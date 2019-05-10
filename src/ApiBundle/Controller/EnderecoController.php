@@ -22,13 +22,19 @@ class EnderecoController extends Controller
             true
         );
         $contato = $this->getDoctrine()->getRepository('AppBundle:Contatos')->find($data['contato']);
-        $endereco = new Endereco();
-        $endereco->setNumero($data['numero']);
-        $endereco->setObs($data['obs']);
-        $endereco->setQuadra($data['quadra']);
-        $endereco->setContato($contato);
-        $em->persist($endereco);
-        $em->flush($endereco);
+        if($contato != null && $data['contato'] != null){
+            try{
+                $endereco = new Endereco();
+                $endereco->setNumero($data['numero']);
+                $endereco->setObs($data['obs']);
+                $endereco->setQuadra($data['quadra']);
+                $endereco->setContato($contato);
+                $em->persist($endereco);
+                $em->flush($endereco);
+            }catch(\Exception $e){
+
+            }
+        }
         // replace this example code with whatever you need
         $serializer = $this->container->get('jms_serializer');
         $response = $serializer->serialize($endereco, 'json');

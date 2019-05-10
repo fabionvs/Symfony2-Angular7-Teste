@@ -4,7 +4,7 @@ import {Contato} from "../contato/contato";
 import {ContatoService} from "../contato/contato.service";
 import {EnderecoService} from "./endereco.service";
 import {Endereco} from "./endereco";
-import {ActivatedRoute} from '@angular/router';
+import {Router, ActivatedRoute, ParamMap} from '@angular/router';
 
 
 @Component({
@@ -18,7 +18,8 @@ export class EnderecoComponent implements OnInit {
     submitted = false;
     contato: Contato;
     responseCreate = false;
-    constructor(private formBuilder: FormBuilder, private enderecoService: EnderecoService, private contatoService: ContatoService, private route: ActivatedRoute) {
+
+    constructor(private formBuilder: FormBuilder, private enderecoService: EnderecoService, private contatoService: ContatoService, private route: ActivatedRoute, private router: Router) {
     }
 
     ngOnInit() {
@@ -34,12 +35,9 @@ export class EnderecoComponent implements OnInit {
     getContato(id): void {
         this.contatoService.getContato(id).subscribe((contato: Contato) => {
             this.contato = contato;
-        });
-    }
-
-    getEnderecos(): void {
-        this.enderecoService.getEnderecos().subscribe((enderecos: Endereco[]) => {
-            this.enderecos = enderecos;
+            if(contato == null){
+                this.router.navigate(['/']);
+            }
         });
     }
 
@@ -57,8 +55,9 @@ export class EnderecoComponent implements OnInit {
         this.enderecoForm.patchValue({
             contato: this.contato.id
         });
-        this.enderecoService.createEndereco(this.enderecoForm.value).subscribe((endereco: Endereco)=>{
+        this.enderecoService.createEndereco(this.enderecoForm.value).subscribe((endereco: Endereco) => {
             this.responseCreate = true;
+            this.submitted = false;
             this.enderecoForm.reset();
         });
 

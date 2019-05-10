@@ -1,21 +1,37 @@
-{% extends 'base.html.twig' %}
+{% extends 'AppBundle::Layout.html.twig' %}
 
 {% block body %}
-    <h1>Contato edit</h1>
+    <div class="container">
+        <h1>Editar Contato</h1>
+        {{ form_start(edit_form) }}
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Nome</label>
+                    <input type="text" class="form-control" name="nome" value="{{ contato.nome }}" required
+                           placeholder="Digite seu nome">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" name="email" value="{{ contato.email }}" aria-describedby="emailHelp" required
+                           placeholder="Digite seu email">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Telefone</label>
+                    <input type="text" class="form-control phone_us" name="telefone" value="{{ contato.telefone }}" aria-describedby="emailHelp" required
+                           placeholder="Digite seu telefone">
+                </div>
+            </div>
+        </div>
+        <input type="submit" class="btn btn-warning" value="Editar Contato"/>
+        <a href="{{ path('index') }}"><button type="button" class="btn btn-secondary ml-4">Voltar</button></a>
+        {{ form_end(edit_form) }}
+    </div>
 
-    {{ form_start(edit_form) }}
-        {{ form_widget(edit_form) }}
-        <input type="submit" value="Edit" />
-    {{ form_end(edit_form) }}
-
-    <ul>
-        <li>
-            <a href="{{ path('contatos_index') }}">Back to the list</a>
-        </li>
-        <li>
-            {{ form_start(delete_form) }}
-                <input type="submit" value="Delete">
-            {{ form_end(delete_form) }}
-        </li>
-    </ul>
+{% endblock %}
+{% block js %}
 {% endblock %}

@@ -44,7 +44,7 @@ class Endereco
 
     /**
      * @ORM\ManyToOne(targetEntity="Contatos")
-     * @ORM\JoinColumn(name="contato_id", referencedColumnName="id")
+     * @ORM\JoinColumn(name="contato_id", referencedColumnName="id", onDelete="CASCADE", nullable=false)
      */
     private $contato;
 

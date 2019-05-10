@@ -3291,7 +3291,7 @@
         <argument>null</argument>
       </call>
       <call method="add">
-        <argument type="service" id="security.request_matcher.s7bi8yb"/>
+        <argument type="service" id="security.request_matcher.2jd_drb"/>
         <argument type="collection">
           <argument>IS_AUTHENTICATED_FULLY</argument>
         </argument>
@@ -3926,8 +3926,8 @@
     <service id="security.request_matcher.ycpk1ip" class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
       <argument>^/api</argument>
     </service>
-    <service id="security.request_matcher.s7bi8yb" class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
-      <argument>^/contatos</argument>
+    <service id="security.request_matcher.2jd_drb" class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+      <argument>^/</argument>
     </service>
     <service id="security.command.user_password_encoder" class="Symfony\Bundle\SecurityBundle\Command\UserPasswordEncoderCommand" public="false">
       <tag name="console.command" command="security:encode-password"/>

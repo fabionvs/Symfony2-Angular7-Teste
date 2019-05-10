@@ -73,9 +73,12 @@ class ContatosController extends Controller
         $editForm->handleRequest($request);
 
         if ($editForm->isSubmitted() && $editForm->isValid()) {
+            $contato->setNome($request->request->get('nome'));
+            $contato->setEmail($request->request->get('email'));
+            $contato->setTelefone($request->request->get('telefone'));
             $this->getDoctrine()->getManager()->flush();
 
-            return $this->redirectToRoute('contatos_edit', array('id' => $contato->getId()));
+            return $this->redirectToRoute('contatos_show', array('id' => $contato->getId()));
         }
 
         return $this->render('AppBundle:Contatos:edit.html.twig', array(
@@ -88,7 +91,7 @@ class ContatosController extends Controller
     /**
      * Deletes a contato entity.
      *
-     * @Route("/{id}", name="contatos_delete")
+     * @Route("/{id}/delete", name="contatos_delete")
      * @Method("DELETE")
      */
     public function deleteAction(Request $request, Contatos $contato)
@@ -102,7 +105,7 @@ class ContatosController extends Controller
             $em->flush();
         }
 
-        return $this->redirectToRoute('contatos_index');
+        return $this->redirectToRoute('index');
     }
 
     /**

@@ -1,0 +1,70 @@
+{% extends "AppBundle::Layout.html.twig" %}
+{% block css %}
+{% endblock %}
+{% block body %}
+
+    <div class="container customerpage">
+        <div class="row ">
+            <div class="col-lg-6 d-block mx-auto">
+                <div class="row">
+                    <div class="col-xl-12 col-md-12 col-md-12">
+                        <div class="card mb-xl-0">
+                            <div class="card-header">
+                                <h3 class="card-title">Register</h3>
+                            </div>
+                            <div class="card-body">
+                                {% if app.request.hasPreviousSession %}
+                                    {% for type, messages in app.session.flashBag.all %}
+                                        {% for message in messages %}
+                                            <div class="{{ type }}">
+                                                {{ message|trans({}, 'FOSUserBundle') }}
+                                            </div>
+                                        {% endfor %}
+                                    {% endfor %}
+                                {% endif %}
+                                {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+                                <div class="form-group">
+                                    {{ form_widget(form.username, { 'attr': {'class': 'form-control placeholder-no-fix', 'placeholder':'User Name'} }) }}
+                                    {% for errorItem in form.username.vars.errors %}
+                                        <span class="help-inline">{{ errorItem.message }}</span>
+                                    {% endfor %}
+                                </div>
+                                <div class="form-group">
+                                    {{ form_widget(form.email, { 'attr': {'class': 'form-control', 'placeholder':'E-mail'} }) }}
+                                    {% for errorItem in form.email.vars.errors %}
+                                        <span class="help-inline">{{ errorItem.message }}</span>
+                                    {% endfor %}
+                                </div>
+                                <div class="form-group">
+                                    {{ form_widget(form.plainPassword.first, { 'attr': {'class': 'form-control', 'placeholder':'Password'} }) }}
+                                    {% for errorItem in form.plainPassword.first.vars.errors %}
+                                        <span class="help-inline">{{ errorItem.message }}</span>
+                                    {% endfor %}
+                                </div>
+                                <div class="form-group">
+                                    {{ form_widget(form.plainPassword.second, { 'attr': {'class': 'form-control', 'placeholder':'Repeat Password'} }) }}
+                                    {% for errorItem in form.plainPassword.second.vars.errors %}
+                                        <span class="help-inline">{{ errorItem.message }}</span>
+                                    {% endfor %}
+                                </div>
+                                {{ form_rest(form) }}
+                                <div class="form-footer mt-2">
+                                    <button type="submit" class="btn btn-primary btn-block">Criar Conta</button>
+                                </div>
+                                {{ form_end(form) }}
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block js %}
+    <script>
+        $('.help-block').each(function (index, value) {
+            $(this).addClass('alert').addClass('alert-warning');
+        });
+    </script>
+{% endblock %}

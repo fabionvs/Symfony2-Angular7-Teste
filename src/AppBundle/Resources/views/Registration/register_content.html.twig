@@ -1,0 +1,17 @@
+{% trans_default_domain 'FOSUserBundle' %}
+{% if app.user.id is not defined %}
+
+    {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+    <div class="row">
+        <h1>Formulário de Cadastro</h1>
+    </div> 
+    <div class="row">
+        <div class="col-md-6">
+            {{ form_widget(form) }}
+        </div>
+    </div>
+    <div class="row" style="padding-bottom:20px;">
+        <input type="submit" class="btn btn-primary btn-block" value="{{ 'registration.submit'|trans }}" />
+    </div>
+    {{ form_end(form) }}
+{% endif %}

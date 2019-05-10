@@ -1,0 +1,35 @@
+{% extends "AppBundle::Layout.html.twig" %}
+    {% block css %}
+    {% endblock %}
+    {% block body %}
+
+        <div class="container customerpage">
+            <div class="row ">
+                <div class="col-lg-6 d-block mx-auto">
+                    <div class="row">
+                        <div class="col-xl-12 col-md-12 col-md-12">
+                            <div class="card mb-xl-0">
+                                <div class="card-header">
+                                    <h3 class="card-title">Seja bem vindo!</h3>
+                                </div>
+                                <div class="card-body">
+                                    <div class="team-section text-center">
+                                        <h4 class="font-weight-bold dark-grey-text mt-4">{{ app.user.username }}</h4>
+                                        <a href="{{ path('fos_user_security_logout') }}"><button class="btn btn-warning"><i class="fa fa-times"></i> Fazer Logout</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+    {% block js %}
+        <script>
+            $('.help-block').each(function (index, value) {
+                $(this).addClass('alert').addClass('alert-warning');
+            });
+        </script>
+    {% endblock %}

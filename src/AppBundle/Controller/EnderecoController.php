@@ -24,7 +24,7 @@ class EnderecoController extends Controller
 
     /**
      * Listagem de Contatos
-     * @Route("/{id}/show", name="endereco_show")
+     * @Route("/endereco/{id}/show", name="endereco_show")
      */
     public function showAction($id)
     {
@@ -37,33 +37,35 @@ class EnderecoController extends Controller
 
     /**
      * Listagem de Contatos
-     * @Route("/{id}/delete", name="endereco_delete")
+     * @Route("/endereco/{id}/delete", name="endereco_delete")
      */
-    public function deleteAction(Request $request)
+    public function deleteAction($id)
     {
-        $enderecos = $this->getDoctrine()->getRepository('AppBundle:Endereco')->findAll();
-        // replace this example code with whatever you need
-        return $this->render('AppBundle:Endereco:index.html.twig', array(
-            'enderecos' => $enderecos,
-        ));
+        $em = $this->getDoctrine()->getManager();
+        $endereco = $this->getDoctrine()->getRepository('AppBundle:Endereco')->find($id);
+        $em->remove($endereco);
+        $em->flush();
+        $this->addFlash('success', 'Endereço excluido com sucesso!');
+        return $this->redirectToRoute('index');
     }
 
 
     /**
      * Edição de endereços
-     * @Route("/{id}/edit", name="endereco_delete")
+     * @Route("/endereco/{id}/edit", name="endereco_edit")
      */
     public function editAction(Request $request, $id)
     {
         $em = $this->getDoctrine()->getManager();
         $endereco = $this->getDoctrine()->getRepository('AppBundle:Endereco')->find($id);
-        if($request->request->isMethod('POST')){
+        if($request->isMethod('POST') && $this->isCsrfTokenValid('form_endereco', $request->request->get('_csrf_token'))){
             $endereco->setQuadra($request->request->get('quadra'));
             $endereco->setNumero($request->request->get('numero'));
             $endereco->setObs($request->request->get('obs'));
             $em->persist($endereco);
             $em->flush();
-            return $this->redirectToRoute('endereco_show', array('id' => $endereco->getId()));
+            $this->addFlash('success', 'Alterado com sucesso!');
+            return $this->redirectToRoute('endereco_edit', array('id' => $endereco->getId()));
         }
 
         // replace this example code with whatever you need

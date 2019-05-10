@@ -2,34 +2,46 @@
 
 {% block body %}
     <div class="container">
-        <h1>Novo Contato</h1>
-        {{ form_start(form) }}
-        <div class="row">
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Nome</label>
-                    <input type="text" class="form-control" name="nome" required
-                           placeholder="Digite seu nome">
+        <h1>Editar Endereço</h1>
+        <form action="{{ path('endereco_edit', {'id': endereco.id}) }}" method="post">
+            <input type="hidden" name="_csrf_token" value="{{ csrf_token('form_endereco') }}" >
+            <div class="row">
+                {% for message in app.flashes('success') %}
+                    <div class="col-md-12">
+                        <div class="alert alert-success">
+                            {{ message }}
+                        </div>
+                    </div>
+                {% endfor %}
+                {% for message in app.flashes('error') %}
+                    <div class="col-md-12">
+                        <div class="alert alert-danger">
+                            {{ message }}
+                        </div>
+                    </div>
+                {% endfor %}
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Quadra</label>
+                        <input type="text" class="form-control" name="quadra" maxlength="255" value="{{ endereco.quadra }}"/>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label>Número</label>
+                        <input type="number" class="form-control"name="numero"  maxlength="5" value="{{ endereco.numero }}"/>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email</label>
-                    <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" required
-                           placeholder="Digite seu email">
-                </div>
+            <div class="form-group">
+                <label>Observação</label>
+                <textarea class="form-control" name="obs"  maxlength="255">{{ endereco.obs }}</textarea>
             </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Telefone</label>
-                    <input type="text" class="form-control" name="telefone" id="exampleInputEmail1" aria-describedby="emailHelp" required
-                           placeholder="Digite seu telefone">
-                </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-warning">Editar Endereço</button>
+                <a href="{{ path('index') }}"><button type="button" class="btn btn-secondary ml-4">Voltar</button></a>
             </div>
-        </div>
-        <input type="submit" class="btn btn-success" value="Criar Contato"/>
-        <a href="{{ path('index') }}"><button class="btn btn-secondary ml-4">Voltar</button></a>
-        {{ form_end(form) }}
+        </form>
     </div>
 
 {% endblock %}
