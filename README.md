@@ -3,14 +3,6 @@ Crud Symfony2.8 + Angular 7
 
 Bem-vindo ao teste de Symfony2.8 com Angular 7.
 
-Symfony
---------------
-
-  * Symfony3.4 instalado via composer 
-
-  * JMSSerializeBundle + NelmoCorsBundle + FosUserBundle + JWTAuthenticationBundle
-
-  * Entities e Controllers de Contatos e Enderecos
 
 Angular 7
 --------------
@@ -22,9 +14,9 @@ Angular 7
 Symfony 3.4
 --------------
 
-  * Listagem, Exclusãom Edição e Visualização de Endereços
+  * Listagem, Exclusão e Edição de Endereços
 
-  * Visualização, Exclusão e Edição de Contatos
+  * Seleciona, Exclusão e Edição de Contatos
   
 
 Como rodar o Symfony?
@@ -53,20 +45,24 @@ parameters:
 ```
   * Crie o banco de dados
 ```
-php app/console doctrine:database:create
+php bin/console doctrine:database:create
 ``` 
   * Atualiza o banco de dados
 ```
-php app/console doctrine:schema:update --force
+php bin/console doctrine:schema:update --force
+``` 
+  * Instalar assets
+```
+php bin/console assets:install
 ``` 
   * Rode a aplicação na porta 8000
 ```
-php app/console server:run 127.0.0.1:8000
+php bin/console server:run 127.0.0.1:8000
 ``` 
 
 Como rodar o Angular?
 --------------
-  * O Angular7 está dentro da pasta "font". Entre na pasta e rode:
+  * O Angular 7 está dentro da pasta "front". Entre na pasta e rode:
 ```
 npm install
 ```
