@@ -8,7 +8,7 @@ Symfony
 
   * Symfony3.4 instalado via composer 
 
-  * JMSSerializeBundle + NelmoCorsBundle + FosUserBundle
+  * JMSSerializeBundle + NelmoCorsBundle + FosUserBundle + JWTAuthenticationBundle
 
   * Entities e Controllers de Contatos e Enderecos
 
@@ -22,9 +22,9 @@ Angular 7
 Symfony 3.4
 --------------
 
-  * Listagem, Exclusão e Edição de Endereços
+  * Listagem, Exclusãom Edição e Visualização de Endereços
 
-  * Seleciona, Exclusão e Edição de Contatos
+  * Visualização, Exclusão e Edição de Contatos
   
 
 Como rodar o Symfony?
