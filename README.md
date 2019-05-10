@@ -8,7 +8,7 @@ Symfony
 
   * Symfony3.4 instalado via composer 
 
-  * JMSSerializeBundle + NelmoCorsBundle + FosUserBundle
+  * JMSSerializeBundle + NelmoCorsBundle + FosUserBundle + JWTAuthenticationBundle
 
   * Entities e Controllers de Contatos e Enderecos
 
