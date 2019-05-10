@@ -18,8 +18,6 @@ Symfony 3.4
 
   * Seleção, exclusão e edição de Contatos
   
-  O FosUserBundle gerencia os usuários no Symfony e LexikJWTAuthenticationBundle + NelmioCorsBundle + JMSSerializerBundle são utilizados na camada de API.
-  
 
 Como rodar o Symfony?
 --------------
