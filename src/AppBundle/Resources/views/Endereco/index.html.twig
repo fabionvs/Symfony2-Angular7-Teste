@@ -29,11 +29,8 @@
                         <a href="{{ path('contatos_show', {'id' : e.contato.id}) }}">
                             <button type="button" class="btn btn-primary">Ver Contato</button>
                         </a>
-                        <a href="{{ path('endereco_delete', {'id' : e.id}) }}">
-                            <button type="button" class="btn btn-danger">Excluir</button>
-                        </a>
-                        <a href="{{ path('endereco_edit', {'id' : e.id}) }}">
-                            <button type="button" class="btn btn-warning">Editar</button>
+                        <a href="{{ path('endereco_show', {'id' : e.id}) }}">
+                            <button type="button" class="btn btn-secondary">Ver Endereço</button>
                         </a>
                     </td>
                 </tr>
