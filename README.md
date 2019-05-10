@@ -51,6 +51,15 @@ php bin/console doctrine:database:create
 ```
 php bin/console doctrine:schema:update --force
 ``` 
+
+  * Limpar o cache
+```
+php bin/console cache:clear
+sudo chmod 777 -R var/cache
+sudo chmod 777 -R var/logs
+sudo chmod 777 -R var/sessions
+```
+
   * Instalar assets
 ```
 php bin/console assets:install
