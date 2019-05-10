@@ -5,6 +5,7 @@ namespace ApiBundle\Controller;
 use AppBundle\Entity\Endereco;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -22,8 +23,8 @@ class EnderecoController extends Controller
             true
         );
         $contato = $this->getDoctrine()->getRepository('AppBundle:Contatos')->find($data['contato']);
-        if($contato != null && $data['contato'] != null){
-            try{
+        if ($contato != null && $data['contato'] != null) {
+            try {
                 $endereco = new Endereco();
                 $endereco->setNumero($data['numero']);
                 $endereco->setObs($data['obs']);
@@ -31,8 +32,8 @@ class EnderecoController extends Controller
                 $endereco->setContato($contato);
                 $em->persist($endereco);
                 $em->flush($endereco);
-            }catch(\Exception $e){
-
+            } catch (\Exception $e) {
+                return new JsonResponse(['message' => 'Não foi possível criar um novo endereço, tente novamente!']);
             }
         }
         // replace this example code with whatever you need

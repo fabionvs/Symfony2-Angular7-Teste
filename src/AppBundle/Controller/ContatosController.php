@@ -53,10 +53,11 @@ class ContatosController extends Controller
     public function showAction(Contatos $contato)
     {
         $deleteForm = $this->createDeleteForm($contato);
-
+        $enderecos  = $this->getDoctrine()->getRepository('AppBundle:Endereco')->findBy(['contato' => $contato->getId()]);
         return $this->render('AppBundle:Contatos:show.html.twig', array(
             'contato' => $contato,
             'delete_form' => $deleteForm->createView(),
+            'enderecos' => $enderecos
         ));
     }
 

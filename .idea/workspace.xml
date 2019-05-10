@@ -2,31 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91f257ef-3bd7-4801-876f-579b8ed73837" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/contato/contato.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/contato/contato.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/contato/contato.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/contato/contato.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/endereco/endereco.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/endereco/endereco.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/endereco/endereco.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/endereco/endereco.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Symfony2-Angular7-Teste.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Endereco/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/00/83/218300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/0f/e5/73e50f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/20/83/fb8320" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/42/da/edda42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/46/3b/dc3b46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/66/ef/22ef66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/6f/ed/f5ed6f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/7a/be/19be7a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/a6/08/7a08a6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/a8/3c/343ca8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/b5/25/5825b5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/d4/dc/a6dcd4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/da/67/8567da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/f5/6e/f36ef5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/dev/profiler/f8/a6/d6a6f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/sessions/dev/sess_26l0b4jc7ibhqi459u4chbv18r" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/sessions/dev/sess_5t77mu8frers73oa99l2005sog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/sessions/dev/sess_eapjthlpvlc40g031010ttheah" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/parameters.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/parameters.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiBundle/Controller/EnderecoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiBundle/Controller/EnderecoController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ContatosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ContatosController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/EnderecoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/EnderecoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Endereco.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Endereco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/new.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Endereco/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Endereco/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Endereco/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Endereco/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Layout.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Security/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Security/login_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Security/login_content.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/2/+/+SCkhGhttnHecP0qRAJ9" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/2/+/+SCkhGhttnHecP0qRAJ9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/9/C/yHX2qug22Sq+M6X4k4dJ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/9/C/yHX2qug22Sq+M6X4k4dJ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/C/I/3Fu40LNL8zcASxgZ0lKm" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/C/I/3Fu40LNL8zcASxgZ0lKm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/F/K/hsJ7YdSmrsoVM1TJoExb" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/F/K/hsJ7YdSmrsoVM1TJoExb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/F/K/xW+IxodvvifiANPyL3St" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/F/K/xW+IxodvvifiANPyL3St" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/K/E/GcbwnoPqsW9PMTN2UTI6" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/K/E/GcbwnoPqsW9PMTN2UTI6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/V/D/TONnqzjmc5pMnNAX9D8a" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/V/D/TONnqzjmc5pMnNAX9D8a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/V/G/MAQltSz-D2ZoCzW+4bcm" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/T5dDZHJIjW/V/G/MAQltSz-D2ZoCzW+4bcm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/88/8817069b5cba6d65629ebbd79ec25e4c3c0e4fa55ea9f75b4c7770356b72c508.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/88/8817069b5cba6d65629ebbd79ec25e4c3c0e4fa55ea9f75b4c7770356b72c508.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/logs/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/logs/dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/bundles/nelmioapidoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_jhe9mq4guedqnao334mgm98te4" beforeDir="false" afterPath="$PROJECT_DIR$/var/sessions/dev/sess_jhe9mq4guedqnao334mgm98te4" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +58,26 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +93,6 @@
         <option value="$PROJECT_DIR$/front/src/app/contato/contato.service.ts" />
         <option value="$PROJECT_DIR$/front/src/app/contato/contato.component.ts" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml.dist" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
@@ -68,10 +106,11 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/new.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/ContatosController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/show.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Layout.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Endereco/index.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/EnderecoController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/show.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
       </list>
     </option>
   </component>
@@ -122,13 +161,29 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/templating" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/exsyst/swagger" />
+      <path value="$PROJECT_DIR$/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/nelmio/api-doc-bundle" />
+      <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1920" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-1" />
     <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -141,6 +196,52 @@
             <path>
               <item name="Symfony2-Angular7-Teste" type="b2602c69:ProjectViewProjectNode" />
               <item name="Symfony2-Angular7-Teste" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Symfony2-Angular7-Teste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Symfony2-Angular7-Teste" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Symfony2-Angular7-Teste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Symfony2-Angular7-Teste" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Symfony2-Angular7-Teste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Symfony2-Angular7-Teste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Symfony2-Angular7-Teste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Symfony2-Angular7-Teste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Symfony2-Angular7-Teste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Symfony2-Angular7-Teste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Symfony2-Angular7-Teste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Symfony2-Angular7-Teste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Symfony2-Angular7-Teste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Symfony2-Angular7-Teste" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Contatos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,17 +296,19 @@
       <workItem from="1557356209572" duration="23949000" />
       <workItem from="1557382473150" duration="45000" />
       <workItem from="1557386391979" duration="533000" />
-      <workItem from="1557387420145" duration="1694000" />
+      <workItem from="1557387420145" duration="1738000" />
+      <workItem from="1557500324516" duration="140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26221000" />
+    <option name="totallyTimeSpent" value="26405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-1" width="1920" height="1040" extended-state="7" />
+    <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -219,7 +322,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994664" visible="true" weight="0.48471615" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994664" visible="true" weight="0.46443516" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053364" side_tool="true" weight="0.46443516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -280,13 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -396,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/ContatosType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -437,13 +526,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ApiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ApiController.php" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -451,6 +534,20 @@
             <caret line="25" column="24" selection-end-line="72" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Contatos/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>

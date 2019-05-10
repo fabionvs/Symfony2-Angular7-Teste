@@ -1,0 +1,33 @@
+{% extends 'AppBundle::Layout.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <h3>Dados do Contato</h3>
+        <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+                <div>
+                    <h6 class="my-0">{{ endereco.contato.id }} - {{ endereco.contato.nome }}</h6>
+                    <small class="text-muted">{{ endereco.contato.email }}</small>
+                </div>
+                <span class="text-muted">{{ endereco.contato.telefone }}</span>
+            </li>
+        </ul>
+        <hr>
+        <h3>Endereço #{{ endereco.id }}</h3>
+        <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+                <div>
+                    <h6 class="my-0">{{ endereco.quadra }} - {{ endereco.numero }}</h6>
+                    <small class="text-muted">{{ endereco.obs }}</small>
+                </div>
+            </li>
+            <li class="list-group-item d-flex float-right lh-condensed">
+                <a class="btn btn-danger ml-2" href="{{ path('endereco_delete', { 'id': endereco.id }) }}">Excluir</a>
+                <a class="btn btn-warning ml-2" href="{{ path('endereco_edit', { 'id': endereco.id }) }}">Editar</a>
+            </li>
+        </ul>
+        <a href="{{ path('index') }}">
+            <button class="btn btn-primary btn-block">Voltar para a lista</button>
+        </a>
+    </div>
+{% endblock %}
