@@ -14,9 +14,9 @@ Angular 7
 Symfony 3.4
 --------------
 
-  * Listagem, Exclusão e Edição de Endereços
+  * Listagem, exclusão, edição e visualização de Endereços
 
-  * Seleção, Exclusão e Edição de Contatos
+  * Seleção, exclusão e edição de Contatos
   
 
 Como rodar o Symfony?
