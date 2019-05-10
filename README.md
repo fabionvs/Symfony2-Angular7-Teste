@@ -22,7 +22,7 @@ Angular 7
 Symfony 3.4
 --------------
 
-  * Listagem, Exclusão e Edição de Endereços
+  * Listagem, Exclusãom Edição e Visualização de Endereços
 
   * Visualização, Exclusão e Edição de Contatos
   
