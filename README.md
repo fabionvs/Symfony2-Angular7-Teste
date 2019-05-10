@@ -1,4 +1,4 @@
-Crud Symfony2.8 + Angular 7
+Crud Symfony3.4 + Angular 7
 ========================
 
 Bem-vindo ao teste de Symfony2.8 com Angular 7.
@@ -16,7 +16,7 @@ Symfony 3.4
 
   * Listagem, Exclusão e Edição de Endereços
 
-  * Seleciona, Exclusão e Edição de Contatos
+  * Seleção, Exclusão e Edição de Contatos
   
 
 Como rodar o Symfony?
