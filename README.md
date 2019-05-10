@@ -24,7 +24,7 @@ Symfony 3.4
 
   * Listagem, Exclusão e Edição de Endereços
 
-  * Seleciona, Exclusão e Edição de Contatos
+  * Visualização, Exclusão e Edição de Contatos
   
 
 Como rodar o Symfony?
