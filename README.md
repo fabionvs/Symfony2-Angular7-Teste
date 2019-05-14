@@ -45,16 +45,16 @@ parameters:
 ```
   * Crie o banco de dados
 ```
-php bin/console doctrine:database:create
+php7.1 bin/console doctrine:database:create
 ``` 
   * Atualiza o banco de dados
 ```
-php bin/console doctrine:schema:update --force
+php7.1 bin/console doctrine:schema:update --force
 ``` 
 
   * Limpar o cache
 ```
-php bin/console cache:clear
+php7.1 bin/console cache:clear
 sudo chmod 777 -R var/cache
 sudo chmod 777 -R var/logs
 sudo chmod 777 -R var/sessions
@@ -62,11 +62,11 @@ sudo chmod 777 -R var/sessions
 
   * Instalar assets
 ```
-php bin/console assets:install
+php7.1 bin/console assets:install
 ``` 
   * Rode a aplicação na porta 8000
 ```
-php bin/console server:run 127.0.0.1:8000
+php7.1 bin/console server:run 127.0.0.1:8000
 ``` 
 
 Como rodar o Angular?
