@@ -86,7 +86,6 @@ sensio_framework_extra:
         annotations: false
 
 
-nelmio_api_doc: ~
 lexik_jwt_authentication:
     private_key_path: '%kernel.root_dir%/../config/jwt/private.pem'
     public_key_path:  '%kernel.root_dir%/../config/jwt/public.pem'
