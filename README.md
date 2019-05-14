@@ -1,7 +1,7 @@
 Crud Symfony3.4 + Angular 7
 ========================
 
-Bem-vindo ao teste de Symfony2.8 com Angular 7.
+Bem-vindo ao teste de Symfony3.4 com Angular 7.
 
 
 Angular 7
